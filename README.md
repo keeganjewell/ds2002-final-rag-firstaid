@@ -11,15 +11,15 @@ This project is a small Retrieval-Augmented Generation (RAG) system that answers
 - Domain: basic first aid scenarios (cuts, burns, nosebleeds, fainting, sprains, etc.).
 - Goal: given a user question like *“What should I do for a minor cut?”*, retrieve the most relevant first-aid instructions from a small, curated dataset.
 - Focus: showing the full RAG stack:
-  - ETL of custom data
+  - ETL of custom data sources
   - Document creation
-  - Embeddings
+  - Embedding Generation
   - FAISS vector store
-  - Flask API for querying
+  - Flask API for retrieval
 
 ---
 
-## 2. Data
+## 2. Data Sources
 
 All data lives under `data/`:
 
